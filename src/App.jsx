@@ -14,6 +14,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import heroburst from "../public/icons/hero-burst.svg";
 import heroburstMobile from "../public/icons/hero-burst-mobile.svg";
+import "./ButtonHover.css";
 
 const useStyles = makeStyles((theme) => ({
   wrapper: {
@@ -177,7 +178,7 @@ const App = () => {
                   </Grid>
                   <Grid item>
                     <Button
-                      className={classes.mainButton}
+                      className={clsx(classes.mainButton, "button-hover")}
                       variant="contained"
                       color="primary"
                     >
