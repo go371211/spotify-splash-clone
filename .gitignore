@@ -102,3 +102,14 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+# Vercel Now cache
+.now
+.cache
+
+# Vscode settings
+.vscode
+
+# Mac
+.DS_Store
